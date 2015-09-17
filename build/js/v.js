@@ -1,1 +1,0 @@
-define(["d3"],function(){var e={};return e.cellSize=16,e.barSize=e.cellSize*5,e.day=d3.time.format("%w"),e.week=d3.time.format("%U"),e.format=d3.format(""),e.date=d3.time.format("%d/%m/%y"),e.color=d3.scale.linear().domain([0,0]).range(["hsl(62,100%,90%)","hsl(228,30%,20%)"]).interpolate(d3.interpolateHcl),e});
